@@ -1,16 +1,15 @@
+<script setup>
+import HelloTodo from './components/HelloTodo.vue'
+</script>
+
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloTodo msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import HelloTodo from './components/HelloTodo.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloTodo
-  }
+  name: 'App'
 }
 </script>
 

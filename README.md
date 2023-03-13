@@ -1,24 +1,12 @@
 # vue-todo-hackthon
 
-## Project setup
-```
-yarn install
-```
+Vue 3 introduce `script setup`, but it doesn't support by default with `vue create`,
+you need manually add the support by add `vueComplierConfig` to `jsconfig/tsconfig`:
 
-### Compiles and hot-reloads for development
+```json
+  "vueCompilerOptions": {
+    "extensions": [
+      ".vue"
+    ]
+  }
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
