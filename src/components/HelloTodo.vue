@@ -18,7 +18,7 @@
       <div v-else>No Content</div>
     </div>
     <div>
-      Todo's Tods:
+      <h3>Todo's Todos:</h3>
       <ul>
         <li>sorting the todos by date</li>
         <li>due dates</li>
